@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* IBricolAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* IBricolAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		701F87AD1117024E00C1E5E1 /* ibricolUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 701F87AC1117024E00C1E5E1 /* ibricolUtils.mm */; };
+		701F89681117580500C1E5E1 /* feu-neutre.png in Resources */ = {isa = PBXBuildFile; fileRef = 701F89641117580500C1E5E1 /* feu-neutre.png */; };
+		701F89691117580500C1E5E1 /* feu-orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 701F89651117580500C1E5E1 /* feu-orange.png */; };
+		701F896A1117580500C1E5E1 /* feu-rouge.png in Resources */ = {isa = PBXBuildFile; fileRef = 701F89661117580500C1E5E1 /* feu-rouge.png */; };
+		701F896B1117580500C1E5E1 /* feu-vert.png in Resources */ = {isa = PBXBuildFile; fileRef = 701F89671117580500C1E5E1 /* feu-vert.png */; };
+		708A7B83111374A9005A0377 /* MeteolocSoapBinding.nsmap in Resources */ = {isa = PBXBuildFile; fileRef = 708A7B77111374A9005A0377 /* MeteolocSoapBinding.nsmap */; };
+		708A7B84111374A9005A0377 /* soapC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 708A7B78111374A9005A0377 /* soapC.cpp */; };
+		708A7B85111374A9005A0377 /* soapClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 708A7B79111374A9005A0377 /* soapClient.cpp */; };
+		708A7B87111374A9005A0377 /* stdsoap2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 708A7B7E111374A9005A0377 /* stdsoap2.cpp */; };
+		70E288361122ACB1001599FF /* UITV_accessory_detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 70E288351122ACB1001599FF /* UITV_accessory_detail.png */; };
+		70E288731122B347001599FF /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E288721122B347001599FF /* PickerViewController.m */; };
+		70E288751122B39B001599FF /* PickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70E288741122B39B001599FF /* PickerView.xib */; };
+		70E80141111620180079CBDB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 70E80140111620180079CBDB /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* IBricolAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBricolAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* IBricolAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBricolAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* IBricol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBricol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* IBricol_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBricol_Prefix.pch; sourceTree = "<group>"; };
+		701F87AB1117024E00C1E5E1 /* ibricolUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibricolUtils.h; sourceTree = "<group>"; };
+		701F87AC1117024E00C1E5E1 /* ibricolUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ibricolUtils.mm; sourceTree = "<group>"; };
+		701F89641117580500C1E5E1 /* feu-neutre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feu-neutre.png"; sourceTree = "<group>"; };
+		701F89651117580500C1E5E1 /* feu-orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feu-orange.png"; sourceTree = "<group>"; };
+		701F89661117580500C1E5E1 /* feu-rouge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feu-rouge.png"; sourceTree = "<group>"; };
+		701F89671117580500C1E5E1 /* feu-vert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feu-vert.png"; sourceTree = "<group>"; };
+		708A7B77111374A9005A0377 /* MeteolocSoapBinding.nsmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MeteolocSoapBinding.nsmap; sourceTree = "<group>"; };
+		708A7B78111374A9005A0377 /* soapC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = soapC.cpp; sourceTree = "<group>"; };
+		708A7B79111374A9005A0377 /* soapClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = soapClient.cpp; sourceTree = "<group>"; };
+		708A7B7B111374A9005A0377 /* soapH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soapH.h; sourceTree = "<group>"; };
+		708A7B7D111374A9005A0377 /* soapStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soapStub.h; sourceTree = "<group>"; };
+		708A7B7E111374A9005A0377 /* stdsoap2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdsoap2.cpp; sourceTree = "<group>"; };
+		708A7B7F111374A9005A0377 /* stdsoap2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdsoap2.h; sourceTree = "<group>"; };
+		70E288351122ACB1001599FF /* UITV_accessory_detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UITV_accessory_detail.png; sourceTree = "<group>"; };
+		70E288711122B347001599FF /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PickerViewController.h; path = ../PickerViewController.h; sourceTree = "<group>"; };
+		70E288721122B347001599FF /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PickerViewController.m; path = ../PickerViewController.m; sourceTree = "<group>"; };
+		70E288741122B39B001599FF /* PickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickerView.xib; sourceTree = "<group>"; };
+		70E80140111620180079CBDB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* IBricol-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IBricol-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				70408389111373E2003C26FC /* soap-stubs */,
+				1D3623240D0F684500981E51 /* IBricolAppDelegate.h */,
+				1D3623250D0F684500981E51 /* IBricolAppDelegate.m */,
+				701F87AB1117024E00C1E5E1 /* ibricolUtils.h */,
+				701F87AC1117024E00C1E5E1 /* ibricolUtils.mm */,
+				70E288711122B347001599FF /* PickerViewController.h */,
+				70E288721122B347001599FF /* PickerViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* IBricol.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* IBricol_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				70E288351122ACB1001599FF /* UITV_accessory_detail.png */,
+				701F89641117580500C1E5E1 /* feu-neutre.png */,
+				701F89651117580500C1E5E1 /* feu-orange.png */,
+				701F89661117580500C1E5E1 /* feu-rouge.png */,
+				701F89671117580500C1E5E1 /* feu-vert.png */,
+				70E80140111620180079CBDB /* icon.png */,
+				70E288741122B39B001599FF /* PickerView.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* IBricol-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70408389111373E2003C26FC /* soap-stubs */ = {
+			isa = PBXGroup;
+			children = (
+				708A7B77111374A9005A0377 /* MeteolocSoapBinding.nsmap */,
+				708A7B78111374A9005A0377 /* soapC.cpp */,
+				708A7B79111374A9005A0377 /* soapClient.cpp */,
+				708A7B7B111374A9005A0377 /* soapH.h */,
+				708A7B7D111374A9005A0377 /* soapStub.h */,
+				708A7B7E111374A9005A0377 /* stdsoap2.cpp */,
+				708A7B7F111374A9005A0377 /* stdsoap2.h */,
+			);
+			name = "soap-stubs";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* IBricol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "IBricol" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IBricol;
+			productName = IBricol;
+			productReference = 1D6058910D05DD3D006BFB54 /* IBricol.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IBricol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* IBricol */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				708A7B83111374A9005A0377 /* MeteolocSoapBinding.nsmap in Resources */,
+				70E80141111620180079CBDB /* icon.png in Resources */,
+				701F89681117580500C1E5E1 /* feu-neutre.png in Resources */,
+				701F89691117580500C1E5E1 /* feu-orange.png in Resources */,
+				701F896A1117580500C1E5E1 /* feu-rouge.png in Resources */,
+				701F896B1117580500C1E5E1 /* feu-vert.png in Resources */,
+				70E288361122ACB1001599FF /* UITV_accessory_detail.png in Resources */,
+				70E288751122B39B001599FF /* PickerView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* IBricolAppDelegate.m in Sources */,
+				708A7B84111374A9005A0377 /* soapC.cpp in Sources */,
+				708A7B85111374A9005A0377 /* soapClient.cpp in Sources */,
+				708A7B87111374A9005A0377 /* stdsoap2.cpp in Sources */,
+				701F87AD1117024E00C1E5E1 /* ibricolUtils.mm in Sources */,
+				70E288731122B347001599FF /* PickerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IBricol_Prefix.pch;
+				INFOPLIST_FILE = "IBricol-Info.plist";
+				PRODUCT_NAME = IBricol;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IBricol_Prefix.pch;
+				INFOPLIST_FILE = "IBricol-Info.plist";
+				PRODUCT_NAME = IBricol;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "IBricol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IBricol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
