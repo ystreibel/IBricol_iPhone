@@ -24,10 +24,6 @@ Conditions minimales :
 Température entre 30°C et 35°C  
 Conditions : pas de pluie, grêle, neige, orage.
 
-![IBricol iPhone](screen.png)
-![IBricol iPhone](screen.png)
-![IBricol iPhone](screen.png)
-
 ## Contributing
 
 1. Fork it!
